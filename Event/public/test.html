@@ -1,0 +1,9 @@
+<html>
+    <head></head>
+    <a href='admin.php' class='admin'>+ Add a New Event</a>
+    <form action='assets/inc/process.inc.php' method='post'>
+        <input type='submit' value='Log out' class='admin' />
+        <input type='hidden' name='token' value='$_SESSION[token]' />
+        <input type='hidden' name='action' value='user_logout'>
+    </form>
+</html>

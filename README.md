@@ -1,2 +1,4 @@
 # Events
-this is a php web applicaion, add event in calender
+这是一个日历程序，可以在日历中添加活动，删除活动，密码保存使用了md5 等转码
+最后将常规web应用转换为了ajax程序
+
